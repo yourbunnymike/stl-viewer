@@ -1,0 +1,40 @@
+{
+  "name": "stl-viewer-electron",
+  "version": "1.0.0",
+  "description": "STL Viewer with Anaglyph support",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "build": "electron-builder",
+    "pack": "electron-builder --dir"
+  },
+  "build": {
+    "appId": "com.stlviewer.app",
+    "productName": "STL Viewer",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "mac": {
+      "category": "public.app-category.graphics-design"
+    }
+  },
+  "keywords": [
+    "stl",
+    "viewer",
+    "3d",
+    "anaglyph"
+  ],
+  "author": "Your Name",
+    "license": "MIT",
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^22.11.7"
+  }
+}
