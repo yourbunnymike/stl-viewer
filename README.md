@@ -13,25 +13,25 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone <repository-url>
+git clone https://github.com/yourbunnymike/stl-viewer.git
 
 2. Установите зависимости:
-npm install
+`npm install`
 
 ## Запуск
 
 ### Режим разработки:
-npm start
+`npm start`
 
 или
 
-npm run dev
+`npm run dev`
 
 ### Сборка приложения:
-npm run build
+`npm run build`
 
 ### Создание портативной версии:
-npm run pack
+`npm run pack`
 
 ## Использование
 
@@ -49,6 +49,7 @@ npm run pack
 ## Лицензия
 
 MIT
+
 
 
 
