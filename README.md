@@ -13,7 +13,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone https://github.com/yourbunnymike/stl-viewer.git
+`git clone https://github.com/yourbunnymike/stl-viewer.git`
 
 2. Установите зависимости:
 `npm install`
@@ -49,6 +49,7 @@ git clone https://github.com/yourbunnymike/stl-viewer.git
 ## Лицензия
 
 MIT
+
 
 
 
